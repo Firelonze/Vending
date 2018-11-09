@@ -199,11 +199,11 @@ public class Main {
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
-                    Bestelling.add("[===============]");
-                    Bestelling.add("[---------------]");
-                    Bestelling.add("[-----Chips-----]");
-                    Bestelling.add("[---------------]");
-                    Bestelling.add("[===============]\n");
+                    Bestelling.add("[===========]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[---Chips---]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[===========]\n");
                     break;
             }
             if (budget < 0) {
