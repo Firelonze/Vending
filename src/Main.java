@@ -13,7 +13,7 @@ public class Main {
 
     public Scanner sc = new Scanner(System.in);
     //de kosten van de producten
-    public double[] cost = {2.15, 1.00, 1.00, 1.00, 1.00, 2.00, 1.75, 2.25, 1.00};
+    public double[] cost = {2.50, 1.25, 1.00, 1.30, 0.90, 2.00, 1.75, 2.25, 1.50};
     public int id;
     public String answer;
     //het begin budet
