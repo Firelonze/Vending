@@ -121,11 +121,11 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[3]);
                     System.out.print("Werp het geld nu in.\n");
 //voegt je keuze toe aan een array
-                    Bestelling.add("[=============]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[----Fanta----]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[=============]\n");
+                    Bestelling.add("[===========]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[---Fanta---]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[===========]\n");
 
                     break;
 
@@ -138,11 +138,11 @@ public class Main {
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
-                    Bestelling.add("[=============]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[-----SPA-----]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[=============]\n");
+                    Bestelling.add("[=========]");
+                    Bestelling.add("[---------]");
+                    Bestelling.add("[---SPA---]");
+                    Bestelling.add("[---------]");
+                    Bestelling.add("[=========]\n");
 
                     break;
                 case 8:
@@ -154,11 +154,11 @@ public class Main {
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
-                    Bestelling.add("[=============]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[----Pepsi----]");
-                    Bestelling.add("[-------------]");
-                    Bestelling.add("[=============]\n");
+                    Bestelling.add("[===========]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[---Pepsi---]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[===========]\n");
                     break;
                 case 9:
                     //haalt de kosten van het product van het budget af
@@ -169,11 +169,11 @@ public class Main {
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
-                    Bestelling.add("[==============]");
-                    Bestelling.add("[--------------]");
-                    Bestelling.add("[----Sprite----]");
-                    Bestelling.add("[--------------]");
-                    Bestelling.add("[==============]\n");
+                    Bestelling.add("[============]");
+                    Bestelling.add("[------------]");
+                    Bestelling.add("[---Sprite---]");
+                    Bestelling.add("[------------]");
+                    Bestelling.add("[============]\n");
                     break;
                 case 4:
                     //haalt de kosten van het product van het budget af
@@ -184,11 +184,11 @@ public class Main {
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
-                    Bestelling.add("[==============]");
-                    Bestelling.add("[--------------]");
-                    Bestelling.add("[----Wafels----]");
-                    Bestelling.add("[--------------]");
-                    Bestelling.add("[==============]\n");
+                    Bestelling.add("[===========]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[---Wafels--]");
+                    Bestelling.add("[-----------]");
+                    Bestelling.add("[===========]\n");
                     break;
                 case 5:
                     //haalt de kosten van het product van het budget af
