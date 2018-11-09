@@ -121,11 +121,11 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[3]);
                     System.out.print("Werp het geld nu in.\n");
 //voegt je keuze toe aan een array
-                    Bestelling.add("[===========]");
-                    Bestelling.add("[-----------]");
-                    Bestelling.add("[---Fanta---]");
-                    Bestelling.add("[-----------]");
-                    Bestelling.add("[===========]\n");
+                    Bestelling.add("[=============]");
+                    Bestelling.add("[-------------]");
+                    Bestelling.add("[----Fanta----]");
+                    Bestelling.add("[-------------]");
+                    Bestelling.add("[=============]\n");
 
                     break;
 
