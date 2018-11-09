@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Main {
     //rode text bij een foutmelding
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_RESET = "\u001B[0m";
+    private static final String ANSI_RED = "\u001B[31m";
+    private static final String ANSI_RESET = "\u001B[0m";
     //alle aangemaakte arratlists
-    public static ArrayList<String> ProdID =new ArrayList<String>();
-    public static ArrayList<String> ProdDrinken =new ArrayList<String>();
-    public static ArrayList<String> Bestelling =new ArrayList<String>();
+    private static ArrayList<String> ProdID =new ArrayList<String>();
+    private static ArrayList<String> ProdDrinken =new ArrayList<String>();
+    private static ArrayList<String> Bestelling =new ArrayList<String>();
 
-    public Scanner sc = new Scanner(System.in);
+    private Scanner sc = new Scanner(System.in);
     //de kosten van de producten
-    public double[] cost = {2.50, 1.25, 1.00, 1.30, 0.90, 2.00, 1.75, 2.25, 1.50};
+    private double[] cost = {2.50, 1.25, 1.00, 1.30, 0.90, 2.00, 1.75, 2.25, 1.50};
     public int id;
-    public String answer;
+    private String answer;
     //het begin budet
-    public double budget = 15;
+    private double budget = 15;
 
     public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class Main {
         main.start();
     }
 
-    public void start() {
+    private void start() {
 
         //add producten aan de arraylist
         ProdID.add("Roze Koek €" + cost[0] );
