@@ -59,7 +59,7 @@ public class Main {
             //print de arraylist drinken
             if (EtenDrinken == 2) {
                 for (int i = 0; i < ProdDrinken.size(); i++) {
-                    System.out.println(i + 5 + ". " + ProdDrinken.get(i));
+                    System.out.println(i + 6 + ". " + ProdDrinken.get(i));
                 }
             }
 
