@@ -91,7 +91,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[1]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[=============]");
                     Bestelling.add("[--Chocolade--]");
                     Bestelling.add("[=============]\n");
@@ -106,7 +106,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[2]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[=============]");
                     Bestelling.add("[----Snoep----]");
                     Bestelling.add("[=============]\n");
@@ -120,7 +120,7 @@ public class Main {
                     //print de totale kosten die berekend zijn
                     System.out.printf("Totale kosten : €%.2f\n", cost[3]);
                     System.out.print("Werp het geld nu in.\n");
-//voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[===========]");
                     Bestelling.add("[-----------]");
                     Bestelling.add("[---Fanta---]");
@@ -137,7 +137,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[4]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[=========]");
                     Bestelling.add("[---------]");
                     Bestelling.add("[---SPA---]");
@@ -153,7 +153,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[5]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[===========]");
                     Bestelling.add("[-----------]");
                     Bestelling.add("[---Pepsi---]");
@@ -183,7 +183,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[7]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[===========]");
                     Bestelling.add("[-----------]");
                     Bestelling.add("[---Wafels--]");
@@ -198,7 +198,7 @@ public class Main {
                     System.out.printf("Totale kosten : €%.2f\n", cost[8]);
                     System.out.print("Werp het geld nu in.\n");
 
-                    //voegt je keuze toe aan een array
+                    //voeg keuze toe aan een array
                     Bestelling.add("[===========]");
                     Bestelling.add("[-----------]");
                     Bestelling.add("[---Chips---]");
