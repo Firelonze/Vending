@@ -13,3 +13,4 @@ en bij drinken kan je kiezen uit:
 8.Pepsi voor €2,-
 9.Sprite voor €1,75
 Uw totale bedrag is €15,- en u kan niet nog meer uitgeven dan €15,-, mocht u meer uitgeven dan 15,- stopt de vending machine.
+Alle Euro's zijn veranderd naar Dollar's vanwege dat die de Euro tekens niet in de terminal verschijnen.
