@@ -226,7 +226,7 @@ public class Main {
             System.out.println("Bedankt voor uw aankoop!");
             System.out.println("Fijne dag verder!");
             //Geeft aan hoeveel euro je overhebt
-            System.out.println("Uw heeft $ " + budget + " over");
+            System.out.println("Uw heeft $" + budget + " over");
             System.exit(1);
         }
 
