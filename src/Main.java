@@ -10,7 +10,6 @@ public class Main {
     private static ArrayList<String> ProdID =new ArrayList<String>();
     private static ArrayList<String> ProdDrinken =new ArrayList<String>();
     private static ArrayList<String> Bestelling =new ArrayList<String>();
-
     private Scanner sc = new Scanner(System.in);
     //de kosten van de producten
     private double[] cost = {2.50, 1.25, 1.00, 1.30, 0.90, 2.00, 1.75, 2.25, 1.50};
@@ -26,7 +25,6 @@ public class Main {
     }
 
     private void start() {
-
         //add producten aan de arraylist
         ProdID.add("Roze Koek €" + cost[0] );
         ProdID.add("Chocolade €" + cost[1] );
