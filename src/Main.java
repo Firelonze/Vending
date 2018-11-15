@@ -10,6 +10,7 @@ public class Main {
     private static ArrayList<String> ProdID =new ArrayList<String>();
     private static ArrayList<String> ProdDrinken =new ArrayList<String>();
     private static ArrayList<String> Bestelling =new ArrayList<String>();
+
     private Scanner sc = new Scanner(System.in);
     //de kosten van de producten
     private double[] cost = {2.50, 1.25, 1.00, 1.30, 0.90, 2.00, 1.75, 2.25, 1.50};
@@ -25,16 +26,17 @@ public class Main {
     }
 
     private void start() {
+
         //add producten aan de arraylist
-        ProdID.add("Roze Koek €" + cost[0] );
-        ProdID.add("Chocolade €" + cost[1] );
-        ProdID.add("Snoep €" + cost[2] );
-        ProdDrinken.add("Fanta €" + cost[3] );
-        ProdDrinken.add("Spa €" + cost[4] );
-        ProdDrinken.add("Pepsi €" + cost[5]);
-        ProdDrinken.add("Sprite €" + cost[6]);
-        ProdID.add("Wafel €" + cost[7]);
-        ProdID.add("Chips €" + cost[8]);
+        ProdID.add("Roze Koek $" + cost[0] );
+        ProdID.add("Chocolade $" + cost[1] );
+        ProdID.add("Snoep $" + cost[2] );
+        ProdDrinken.add("Fanta $" + cost[3] );
+        ProdDrinken.add("Spa $" + cost[4] );
+        ProdDrinken.add("Pepsi $" + cost[5]);
+        ProdDrinken.add("Sprite $" + cost[6]);
+        ProdID.add("Wafel $" + cost[7]);
+        ProdID.add("Chips $" + cost[8]);
 
         do {
             //print de eerste zinnetjes
@@ -62,7 +64,7 @@ public class Main {
             }
 
             //geeft aan wat je budget is
-            System.out.println("Wat wilt u bestellen? uw budget is €" + budget);
+            System.out.println("Wat wilt u bestellen? uw budget is $" + budget);
 
             int choice = sc.nextInt();
             switch (choice) {
@@ -70,9 +72,9 @@ public class Main {
                 case 1:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[0];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[0]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[0]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
@@ -84,9 +86,9 @@ public class Main {
                 case 2:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[1];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[1]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[1]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -99,9 +101,9 @@ public class Main {
                 case 3:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[2];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[2]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[2]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -114,9 +116,9 @@ public class Main {
                 case 6:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[3];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[3]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[3]);
                     System.out.print("Werp het geld nu in.\n");
                     //voeg keuze toe aan een array
                     Bestelling.add("[===========]");
@@ -130,9 +132,9 @@ public class Main {
                 case 7:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[4];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[4]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[4]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -146,9 +148,9 @@ public class Main {
                 case 8:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[5];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[5]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[5]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -161,9 +163,9 @@ public class Main {
                 case 9:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[6];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[6]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[6]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voegt je keuze toe aan een array
@@ -176,9 +178,9 @@ public class Main {
                 case 4:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[7];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[7]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[7]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -191,9 +193,9 @@ public class Main {
                 case 5:
                     //haalt de kosten van het product van het budget af
                     budget -= cost[8];
-                    System.out.println("Uw nieuwe budget is " + "€" + budget);
+                    System.out.println("Uw nieuwe budget is " + "$" + budget);
                     //print de totale kosten die berekend zijn
-                    System.out.printf("Totale kosten : €%.2f\n", cost[8]);
+                    System.out.printf("Totale kosten : $%.2f\n", cost[8]);
                     System.out.print("Werp het geld nu in.\n");
 
                     //voeg keuze toe aan een array
@@ -224,7 +226,7 @@ public class Main {
             System.out.println("Bedankt voor uw aankoop!");
             System.out.println("Fijne dag verder!");
             //Geeft aan hoeveel euro je overhebt
-            System.out.println("Uw heeft € " + budget + " over");
+            System.out.println("Uw heeft $ " + budget + " over");
             System.exit(1);
         }
 
